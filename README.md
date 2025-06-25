@@ -115,17 +115,4 @@ rag-demo-vllm/
 
 ---
 
-## 📬 Questions?
 
-Feel free to open issues or PRs. Contributions welcome!
-
----
-
-## 🙌 Credits
-
-Built with:
-
-* [LangChain](https://www.langchain.com/)
-* [Ollama](https://ollama.com/)
-* [Sentence-Transformers](https://www.sbert.net/)
-* [vLLM](https://github.com/vllm-project/vllm)
