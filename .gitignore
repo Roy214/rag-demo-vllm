@@ -1,3 +1,12 @@
+# Local models
+local_models/
+
+# FAISS vector indexes
+*.faiss
+*.pkl
+vllm_faiss_index/
+quantization_faiss_index/
+
 # Python-generated files
 __pycache__/
 *.py[oc]
