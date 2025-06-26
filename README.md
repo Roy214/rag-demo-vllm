@@ -1,16 +1,16 @@
-# 🔍 RAG Demo with vLLM + Quantized Mistral + LangChain
+# RAG Demo with vLLM + Quantized Mistral + LangChain
 
-This project is a minimal, production-ready **Retrieval-Augmented Generation (RAG)** assistant using:
+This project is a minimal implementation of **Retrieval-Augmented Generation (RAG)** assistant using:
 
-* 📄 `vllm.pdf` as the knowledge base
-* 🧠 Local embeddings via Sentence Transformers
-* ⚡ Fast vector search with FAISS
-* 🤖 Local quantized **Mistral** model via [Ollama](https://ollama.com/)
-* 🧹 LangChain for retrieval orchestration
+* `vllm.pdf` as the knowledge base
+*  Local embeddings via Sentence Transformers
+*  Fast vector search with FAISS
+*  Local quantized **Mistral** model via [Ollama](https://ollama.com/)
+*  LangChain for retrieval orchestration
 
 ---
 
-## ✨ Quick Start
+## Quick Start
 
 ### 1. Clone the Repo
 
@@ -62,7 +62,7 @@ ollama serve
 python main.py
 ```
 
-👍 It will:
+ It will:
 
 * Load `vllm.pdf`
 * Embed and index the content with FAISS
@@ -71,7 +71,7 @@ python main.py
 
 ---
 
-## 🧠 Sample Q\&A
+##  Sample Q\&A
 
 ```bash
 ❓ Question: What is main benefit of PageAttention in vLLM?
@@ -81,7 +81,7 @@ python main.py
 
 ---
 
-## 📄 .gitignore Notice
+##  .gitignore Notice
 
 This repo ignores large/local files:
 
@@ -93,7 +93,7 @@ Make sure you regenerate or manually place these files in your local env.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 rag-demo-vllm/
@@ -107,7 +107,7 @@ rag-demo-vllm/
 
 ---
 
-## 📌 Requirements
+##  Requirements
 
 * Python 3.9+
 * `ollama` (for running quantized Mistral locally)
