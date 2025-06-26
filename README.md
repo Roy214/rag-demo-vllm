@@ -74,9 +74,9 @@ python main.py
 ##  Sample Q\&A
 
 ```bash
-❓ Question: What is main benefit of PageAttention in vLLM?
+ Question: What is main benefit of PageAttention in vLLM?
 
-📘 Answer: PagedAttention enables efficient memory management in vLLM by virtualizing the KV cache.
+ Answer: PagedAttention enables efficient memory management in vLLM by virtualizing the KV cache.
 ```
 
 ---
